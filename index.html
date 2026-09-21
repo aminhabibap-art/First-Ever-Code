@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- letting browser know which version of html we are using -->
+
+<html lang="en">
+<!-- root element of the html document, so every other element inside this html document is a child/descendant of it, lang = en just means the language is English, and lets the web browser know that-->
+
+<head>
+<!-- where we put important metadata about our webpage, like the title and description -->
+    
+<meta charset="UTF-8">
+<!-- charset - make sure our webpage displays special symbols and characters from different languages -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- helps display webpage correctly -->
+    
+<title>Hello, world</title>
+<!-- what gets displayed on browser tabs -->
+ <style>
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    max-width: 80%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+<!-- area we will display all of our content -->
+
+<h1>Hello, world</h1>
+<div>
+<!-- div is a container to group different elements together on a webpage, and we can also style this container with CSS to make it look nice -->
+ 
+<button>You can't click me</button>   
+<a href="https://github.com/aminhabibap-art" target="_blank" rel="noopener noreferrer">Link to GitHub</a>
+<!-- href - attribute that specifies the URL of the page the link goes to, https is the attribute value, for absolute links use http:// or https://, for relative links use "./pages/about.html" -->
+<!-- <a> tag (short for anchor tag) is used in HTML to create hyperlinks, connecting one page to another -->
+
+<!-- target="_blank" opens the link in a new tab -->
+<!-- noopener prevents new page from controlling original page, noreferrer hides where user came from so the destination site cannot see where the user came from -->
+
+<a href="./pages/about.html"> Me beginning coding</a>
+
+
+<img src="https://quotefancy.com/media/wallpaper/3840x2160/8151357-Hello-World-Wallpaper.jpg" alt="Hello, world">
+<!-- src - attribute that specifies the URL of the image, alt - attribute that provides alternative text for the image, if the image cannot be displayed -->
+<form> 
+<label for="search">Search</label>
+<input type="text" name="search" id="search"
+<button type="submit"></button>
+</form>
+
+</div>
+
+
+
+</body>
+</html>
