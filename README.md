@@ -1,2 +1,3 @@
 # First-Ever-Code
-Watched a short summary on HTML, as I want to use it to create a gym tracker app and just changed up the original to try and boost my understanding of HTML
+Watched a short summary on HTML, from the TheCodingSloth. Taught me a lot of the basics which I will be using to create a gym tracker hopefully
+
